@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.landing-logo, .footer-wrap .footer_logo {
+  font-family: "Fresca", sans-serif;
+  padding-top: 15px;
+  opacity: 1.5;
+  max-width: 400px; }
+  .landing-logo img, .footer-wrap .footer_logo img {
+    margin-top: 10px;
+    width: 57px; }
+  .landing-logo p, .footer-wrap .footer_logo p {
+    display: inline-block;
+    text-align: center;
+    padding-left: 14px;
+    padding-top: 8px;
+    font-size: 30px;
+    vertical-align: top;
+    margin-top: 0px;
+    font-weight: bold;
+    line-height: 85%; }
+    .landing-logo p span, .footer-wrap .footer_logo p span {
+      font-weight: normal;
+      font-size: 13px;
+      vertical-align: super; }
+      .landing-logo p span::before, .footer-wrap .footer_logo p span::before {
+        content: "\A";
+        white-space: pre-line; }
+
+header {
+  color: white;
+  background-image: url(../img/m-h-night.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  text-align: left;
+  font-family: 'Source Sans Pro', sans-serif;
+  padding-left: 10%;
+  border-radius: 0 0 45% 0 / 35%; }
+  header .header_heading {
+    padding-top: 80px;
+    font-size: 90px;
+    font-weight: bold;
+    max-width: 40%;
+    line-height: 100%;
+    position: relative;
+    z-index: 0; }
+    header .header_heading::after {
+      content: "";
+      height: 62px;
+      width: 375px;
+      background-color: #ff4e33;
+      z-index: -1;
+      position: absolute;
+      bottom: 0;
+      left: 0; }
+  header .header_text {
+    font-family: "Fresca", sans-serif;
+    padding-top: 40px;
+    white-space: pre-line;
+    line-height: 155%;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    word-spacing: -0.6px; }
+  header .header_button {
+    margin-top: 70px;
+    margin-bottom: 13%;
+    background-color: #e3ac00;
+    border: 1px solid transparent;
+    padding: 18px 55px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+  header div a {
+    padding-left: 185px;
+    font-size: 25px;
+    color: white; }
+
+body {
+  background-color: #21232e; }
+
+main {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin: 0% 20%; }
+  main .section_text {
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    opacity: 0.8;
+    padding: 45px;
+    letter-spacing: 1.2px;
+    margin-left: 12px;
+    position: relative; }
+    main .section_text::after {
+      content: "";
+      height: 62px;
+      width: 230px;
+      background-color: #ff4e33;
+      z-index: -1;
+      position: absolute;
+      bottom: 55px;
+      right: 320px; }
+  main .section_card_wrap {
+    margin: 0; }
+  main .section_card {
+    box-sizing: border-box;
+    display: flex;
+    border: 25px solid #3b3f50;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: white;
+    background: #3b3f50; }
+    main .section_card .section_card_heading {
+      width: auto;
+      padding: 35px 0px 30px 30px;
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: 0.4px;
+      margin-left: auto; }
+    main .section_card .section_card_text {
+      font-size: 20px;
+      text-align: justify;
+      padding: 0px 90px 15px 100px;
+      line-height: 150%;
+      letter-spacing: -0.1px;
+      word-spacing: 1px;
+      margin-left: auto; }
+    main .section_card:nth-child(1) .section_card_text {
+      font-family: 'Fresca', sans-serif;
+      width: 500px;
+      letter-spacing: 0.4px;
+      word-spacing: -1px; }
+    main .section_card:nth-child(1) .section_card_img {
+      width: 371px;
+      height: 294px;
+      border-radius: 8px; }
+    main .section_card:nth-child(2) .section_card_text {
+      width: 520px;
+      font-family: 'Hind', sans-serif;
+      letter-spacing: -0.1px;
+      word-spacing: 1px; }
+    main .section_card:nth-child(2) .section_card_img {
+      width: 354px;
+      height: 294px;
+      border-radius: 8px; }
+    main .section_card:nth-child(3) .section_card_text {
+      font-family: 'Hind', sans-serif;
+      width: 480px;
+      word-spacing: -1px;
+      padding-right: 100px; }
+    main .section_card:nth-child(3) .section_card_img {
+      width: 405px;
+      height: 294px;
+      border-radius: 8px; }
+    main .section_card a {
+      color: white;
+      font-size: 20px; }
+
+.section_banner {
+  margin-top: 175px;
+  margin-left: -25px;
+  border: none;
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height: 180px;
+  background: linear-gradient(to right, #dca107, #97334d);
+  border-radius: 8px; }
+  .section_banner .section_banner_heading {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    padding: 35px 0px 20px 130px;
+    position: relative;
+    z-index: 1; }
+    .section_banner .section_banner_heading::after {
+      content: "";
+      height: 62px;
+      width: 80px;
+      background-color: #ff4e33;
+      z-index: -1;
+      position: absolute;
+      bottom: 23px;
+      right: 300px; }
+  .section_banner .section_banner_text {
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 130px; }
+  .section_banner .section_banner_button {
+    text-align: right;
+    height: 60px;
+    vertical-align: middle;
+    margin-top: 60px;
+    margin-left: 220px;
+    background-color: #e3ac00;
+    border: 1px solid transparent;
+    padding: 18px 55px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold; }
+
+.footer {
+  height: 200px; }
+
+.footer-wrap {
+  z-index: -1;
+  position: relative;
+  top: -100px;
+  box-sizing: border-box;
+  padding-top: 150px;
+  padding-bottom: 70px;
+  background-color: #3b3f50;
+  text-align: left;
+  color: white;
+  display: flex;
+  flex-wrap: wrap; }
+  .footer-wrap .footer_logo {
+    width: 20%;
+    padding-left: 190px; }
+  .footer-wrap .footer_text {
+    padding-top: 15px;
+    padding-left: 150px;
+    font-size: 17px;
+    width: 20%;
+    letter-spacing: 0.2px;
+    font-family: "Fresca", sans-serif;
+    line-height: 150%; }
+  .footer-wrap .footer-cr {
+    padding-top: 45px;
+    width: 30%;
+    padding-left: 60px;
+    text-align: right;
+    font-family: "Fresca", sans-serif;
+    font-size: 20px; }
