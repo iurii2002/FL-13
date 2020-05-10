@@ -1,0 +1,27 @@
+/* TODO: your styles goes here*/
+
+body {
+    margin-left: 50px;
+}
+
+li {
+    list-style: none;
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+.material-icons {
+    vertical-align: -5px;
+    color: rgba(255, 187, 0, 0.795);
+}
+
+.invisible {
+    display: none;
+  }
+
+.visible {
+    display: inherit;
+}
+
