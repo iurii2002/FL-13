@@ -12,16 +12,38 @@ li:hover {
     cursor: pointer;
 }
 
+.cursor_text{
+    cursor: text;
+}
+
 .material-icons {
     vertical-align: -5px;
     color: rgba(255, 187, 0, 0.795);
 }
 
-.invisible {
-    display: none;
-  }
-
-.visible {
-    display: inherit;
+.file {
+    color: lightgray;
 }
 
+.right-click-menu {
+    margin: 0px;
+    padding: 0px;
+    position: fixed;
+    list-style: none;
+    background-color: rgb(249, 249, 249);
+    border: 10px solid rgb(249, 249, 249);
+    border-radius: 2px;
+    display: none;
+    box-shadow: 2px 2px lightgray;
+}
+.right-click-menu.active {
+    display: block;
+}
+
+div:not(#root):hover {
+    background-color: lightgrey;
+}
+
+.right-click-menu li:hover {
+    background-color: lightgrey;
+}
