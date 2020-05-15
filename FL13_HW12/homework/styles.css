@@ -1,0 +1,75 @@
+* {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+div {
+    display: flex;
+  }
+  
+section {
+    margin: 5px 5px;
+    padding-bottom: 5px;
+
+    text-align: center;
+    list-style: inside;
+    border: 1px solid black;
+}
+
+#Book-list {
+    width: 33%;
+}
+
+#Book-information {
+    width: 66%;
+}
+
+#p {
+    
+    display: block;
+}
+
+h2 {
+    border-bottom: 1px solid black;
+}
+
+button {
+    padding: 0 5px;
+    margin: 0 5px;
+    text-align: center;
+}
+
+li {
+    padding: 4px;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    float: left;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.flex {
+    flex-direction: row;
+}
+
+.flex-col {
+    flex-direction: column;
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+p {
+    padding-left: 5px;
+    text-align: left;
+}
+
+#save, #cancel {
+    width: 100px;
+    margin-top: 5px;
+}
