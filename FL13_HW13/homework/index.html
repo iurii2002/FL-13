@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <title>HW_13</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-menu container-lg navbar navbar-expand-lg navbar-light bg-white">
+            <span><h1 class="nav-menu__logo col-sm-2 m-3">Games</h1></span>            
+            <button class="nav-menu__toggler navbar-toggler m-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-sm-right m-3 justify-content-center" id="navbarNav">
+              <ul class="nav-menu__list navbar-nav">
+                <li class="nav-menu__item nav-item">
+                  <a class="nav-menu__link nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-menu__item nav-item">
+                  <a class="nav-menu__link nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-menu__item nav-item">
+                  <a class="nav-menu__link nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-menu__item nav-item">
+                  <a class="nav-menu__link nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+              </ul>
+            </div>
+            <button class="nav-menu__start-button d-none d-lg-block btn btn-dark">Push to Start</button>
+        </nav>        
+    </header>
+    <div class="my-lg-5">
+        <div class="container-lg ">
+            <div class="main row row-cols-lg-2 justify-content-center flex-row-reverse">
+                <img src="./assets/hero-5.jpg" alt="main image" class="main__image col-sm-12 col-lg-5">
+                <div class="main__body m-3 col-lg-4">
+                    <h1 class="main__header page-header my-3">Front-end Lab CSS-Frameworks</h1>
+                    <div class="main__text my-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled 
+                        it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially</div>
+                    <button class="main__button btn-lg border-0 text-white mb-4">Find Out More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section_top text-white bg-dark">
+        <div class="container-lg">
+            <div class="section__header py-5 mb-3">
+                <h2 class="section__title page-header text-center">Games Section</h2>
+                <div class="section__text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="section__elements container">
+                <div class="section__cards row row-cols-md-2 row-cols-lg-3 m-0 row-cols-1 justify-content-center">
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/1.jpg" alt="card1" class="card__image card-img-top">
+                        <div class="card__body my-4"> 
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/2.jpg" alt="card2" class="card__image card-img-top">
+                        <div class="card__body my-4">
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/3.jpg" alt="card3" class="card__image card-img-top">
+                        <div class="card__body my-4">
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/4.jpg" alt="card4" class="card__image card-img-top">
+                        <div class="card__body my-4">
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/5.jpg" alt="card5" class="card__image card-img-top">
+                        <div class="card__body my-4">
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                    <div class="card col text-white bg-dark mb-3 border-0">
+                        <img src="./assets/6.jpg" alt="card6" class="card__image card-img-top">
+                        <div class="card__body my-4">
+                            <h5 class="card__header card-title text-center">Card title</h5>
+                            <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                        </div>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section section_bottom bg-light">
+        <div class="container">
+            <div class="section__header py-5 bg-light mb-3">
+                <h2 class="section__title page-header text-center pb-2">Games Section</h2>
+                <div class="section__text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            </div>
+            <div class="section__elements container row row-cols-lg-2 m-0 row-cols-1">
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/7.jpg" alt="card7" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/8.jpg" alt="card8" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/9.jpg" alt="card9" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/10.jpg" alt="card10" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/11.jpg" alt="card11" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="card col bg-light mb-3 border-0">
+                    <img src="./assets/12.jpg" alt="card12" class="card__image card-img-top shadow ">
+                    <div class="card__body my-4">
+                        <h5 class="card__header card-title text-center">Card title</h5>
+                        <div class="card__text card-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <footer class="text-white bg-dark pt-5">
+        <div class="container">
+            <div class="footer row justify-content-center m-2">
+                <div class="footer__info card text-white bg-dark border-0 col-lg-6">
+                    <h4 class="footer__header card-title">Subscribe</h4>
+                    <div class="footer__text card-text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making</div>
+                </div>
+                <div class="footer__email col-lg-6">
+                    <input style="height: 50px" class="footer__emailInput col-sm-12 form-control my-3 border-0" type="email" value="Email Address">
+                    <button class="footer__button col-sm-12 btn-lg border-0 text-white">Subscribe</button>
+                </div>
+                <div class="footer__bottom text-center card-text mt-3 py-4">&copy2020 Front-end Lab</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

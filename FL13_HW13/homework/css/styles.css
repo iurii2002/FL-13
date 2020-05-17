@@ -1,0 +1,7 @@
+.footer__button, .main__button {
+    background-color: rgb(211, 78, 25); 
+}
+
+.nav-menu__link{
+    color: black !important;    
+}
