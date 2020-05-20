@@ -5,19 +5,19 @@ function Student(name, email) {
     let studentEmail = email;
     let homeworkResults = [];
     this.getName = () => {
-        return(studentName)
+        return studentName
     };
     this.getEmail = () => {
-        return(studentEmail)
+        return studentEmail
     };
     this.addHomeworkResult = (topic, success) => {
         let currentResult = {'topic': topic, 'success': success};
         homeworkResults.push(currentResult);
     };
     this.getHomeworkResult = () => {
-        return homeworkResults.length ? homeworkResults : "no homework results";
+        return homeworkResults.length ? homeworkResults : 'no homework results';
     };
-};
+}
 
 function FrontendLab (students, failedLimit) {
     let failedHomeworksLimit = failedLimit;  
@@ -30,7 +30,7 @@ function FrontendLab (students, failedLimit) {
         for (let student of studentList) {          
             console.log('name: ' + student.getName() + ',', 'email: ' + student.getEmail());
             console.log(student.getHomeworkResult());
-        };
+        }
     };
     this.addHomeworkResults = (homeworkResults) => {
         if (!homeworkResults.length) {
@@ -41,9 +41,9 @@ function FrontendLab (students, failedLimit) {
                     if (studentResult.email === student.getEmail()) {
                         success = studentResult.success;
                     }
-                };
+                }
                 student.addHomeworkResult(topic, success);
-            };            
+            }          
         } else {
             for (let student of studentList) {
                 for (let homeworkResult of homeworkResults) {
@@ -53,19 +53,22 @@ function FrontendLab (students, failedLimit) {
                         if (studentResult.email === student.getEmail()) {
                             success = studentResult.success;
                         }
-                    };
+                    }
                     student.addHomeworkResult(topic, success);
-                };
-            };
+                }
+            }
         }
     };
     this.printStudentsEligibleForTest = () => {
         for (let student of studentList) {
-            let totalFails = student.getHomeworkResult().reduce((accum, result) => !result.success  ? accum +=1 : accum, 0);
+            let totalFails = student.getHomeworkResult().reduce((accum, result) => {
+                !result.success ? accum +=1 : accum
+                return accum;
+            }, 0);
             if (totalFails <= failedHomeworksLimit) {
                 console.log('name: ' + student.getName() + ',', 'email: ' + student.getEmail()) 
-            };
-        };
+            }
+        }
     };
-};
+}
 
