@@ -1,0 +1,29 @@
+/* Your code goes here */
+
+body {
+    margin-left: 20px;
+}
+
+.input_username, .input_name {
+    color: grey;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+input {
+    font-size: 18px;
+}
+
+button {
+    font-size: 18px;
+}
+
+table {
+    color:black;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+.id {
+    width: 100px;
+}
